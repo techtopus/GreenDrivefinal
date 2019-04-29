@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.techtopus.greendrive">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" />
+        <activity android:name=".TrackerActivity" />
+
+        <service
+            android:name=".TrackerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".profile" />
+        <activity android:name=".ridepublish" />
+        <activity android:name=".confirmrider" />
+        <activity android:name=".triphistory" />
+        <activity android:name=".trippublish" />
+        <activity android:name=".driverslist" />
+        <activity android:name=".carlist" />
+        <activity android:name=".destination" />
+        <activity android:name=".driverdetails" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Drive" />
+        <activity android:name=".welcome" />
+        <activity android:name=".Ride" />
+        <activity android:name=".personalinfo" />
+        <activity android:name=".DriveORRide" />
+        <activity android:name=".Login" />
+        <activity android:name=".register" />
+        <activity android:name=".frontscreen" />
+        <activity android:name=".ridedest" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tripdetails" />
+        <activity android:name=".confirmdriver" />
+        <activity android:name=".addstop" />
+        <activity android:name=".PendingRequest" />
+        <activity android:name=".activerequest" />
+        <activity android:name=".safety" />
+        <activity android:name=".rating" />
+
+        <receiver
+            android:name=".MyBroadcastReciever"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service android:name=".myfirebasemessagingservice">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".tripdetails$GPSTracker" />
+        <service android:name=".Ride$GPSTracker" />
+        <service android:name=".safety$GPSTracker" />
+    </application>
+
+</manifest>

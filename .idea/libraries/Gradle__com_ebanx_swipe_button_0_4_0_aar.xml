@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ebanx:swipe-button:0.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93471d461df58bdebd33422b30d86e8b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93471d461df58bdebd33422b30d86e8b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ebanx/swipe-button/0.4.0/7f6b989a504e74f39b10ed065927f577e6a1d27b/swipe-button-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trippublish"
+    android:background="#fff">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+
+        android:layout_width="392dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/gogreen" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="352dp"
+        android:text="Time of Trip"
+        android:textColor="@color/quantum_googredA700"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Trip is Active now "
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView2"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="169dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cmnbtn3"
+        android:onClick="cancel"
+        android:text="cancel trip"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="81dp"
+        android:layout_height="91dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="86dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="564dp"
+        android:background="@drawable/circle"
+        android:onClick="pending"
+        android:text="Trip request"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="70dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="home"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886"
+        app:srcCompat="@drawable/home" />
+
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="12dp"
+        app:button_background="@drawable/shape_button"
+        app:button_bottom_padding="20dp"
+        app:button_image_disabled="@drawable/ic_action_name"
+        app:button_image_enabled="@drawable/ic_action_name"
+        app:button_left_padding="20dp"
+        app:button_right_padding="20dp"
+        app:button_top_padding="20dp"
+        app:inner_text="SWIPE TO COMPLETE"
+        app:inner_text_background="@drawable/shape_rounded"
+
+        app:inner_text_bottom_padding="18dp"
+        app:inner_text_color="#fff"
+        app:inner_text_size="20sp"
+
+        app:inner_text_top_padding="18dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+
+
+</android.support.constraint.ConstraintLayout>

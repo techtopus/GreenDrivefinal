@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".tripdetails"
+
+
+    >
+
+    <item
+        android:title="Profile"
+        android:id="@+id/Profile"
+        />
+    <item
+        android:id="@+id/triphist"
+        android:title="Trip History"
+
+        >
+
+    </item>
+
+    <item
+        android:title="Rate and Review"
+        android:id="@+id/randr"
+        >
+
+    </item>
+    <item
+        android:id="@+id/safety"
+
+        android:title="Safety">
+
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/menuLogout"
+        >
+
+    </item>
+</menu>

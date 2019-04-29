@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "610278980378",
+    "firebase_url": "https://greendrive-c916f.firebaseio.com",
+    "project_id": "greendrive-c916f",
+    "storage_bucket": "greendrive-c916f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610278980378:android:feb5d1a1da6d938f",
+        "android_client_info": {
+          "package_name": "com.techtopus.greendrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610278980378-8ospprpip32fjl79jn0bmdkf189h94e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtopus.greendrive",
+            "certificate_hash": "4e700010ec0b536ce78bc20589def4ed3bf96477"
+          }
+        },
+        {
+          "client_id": "610278980378-plg50id0j62re9nlfavfb7ihkj1g4io2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAofSUCf0hoq44WFSxx4lY6RBJT3WBGtbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610278980378-plg50id0j62re9nlfavfb7ihkj1g4io2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

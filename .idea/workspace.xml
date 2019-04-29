@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a33f23c2-0090-4f3d-b19b-e4461c472289" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DisplayActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/HistoryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/historyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/triphistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cmnbtn5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cmnbtn6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_display.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_triphistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/historylayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ActiveAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ActiveAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Drive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DriveORRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DriveORRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/MyBroadcastReciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/MyBroadcastReciever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/PendingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/PendingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/activerequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/activerequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/addstop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/addstop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/carlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/carlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmrider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmrider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverdetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverdetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverslist.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverslist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/pendingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/pendingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/personalinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/personalinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridedest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridedest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridepublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridepublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/safety.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/safety.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/tripdetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/tripdetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/trippublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/trippublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activecustomlayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activecustomlayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_activerequest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_activerequest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_addstop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_addstop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmdriver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmdriver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmrider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmrider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_destination.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_destination.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_drive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_drive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_drive_orride.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_drive_orride.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_driverdetaiils.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_driverdetaiils.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_driverslist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_driverslist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_frontscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_frontscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pendingrequest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pendingrequest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_personalinfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_personalinfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rating.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ridedest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ridedest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ridepublish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ridepublish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_safety.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_safety.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tripdetails.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tripdetails.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_trippublish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trippublish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customlayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/customlayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customlayout2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/customlayout2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customlayout3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/customlayout3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_carfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_carfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tripfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tripfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/tripdetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2618">
+              <caret line="192" column="54" selection-start-line="192" selection-start-column="54" selection-end-line="192" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/safety.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Ride.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2312">
+              <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/triphistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridepublish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5355">
+              <caret line="349" column="49" selection-start-line="349" selection-start-column="49" selection-end-line="349" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/activerequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverdetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="290" column="46" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ridepublish.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/cmnbtn5.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/cmnbtn6.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/GMapV2Direction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DirectionsJSONParser.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DisplayActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/profile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_drive_orride.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_safety.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/welcome.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/circle2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DriveORRide.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Drive.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_addstop.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rating.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_activerequest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/pendingAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_driverslist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ridedest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/carlist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/destination.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridedest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_drive.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/register.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_personalinfo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/personalinfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_trippublish.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pendingrequest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/PendingRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_driverdetaiils.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/customlayout3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverslist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/addstop.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmdriver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmrider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/triphistory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridepublish.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Ride.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/tripdetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/safety.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/activerequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverdetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="233" />
+    <option name="width" value="1141" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="CircleImageView-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="CircleImageView-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenDrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenDrive" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="CircleImageView-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/icts/Android/Sdk" />
+    <property name="device.picker.selection" value="NSM3Y18413011871" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1556107553675" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.techtopus.greendrive" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khsci5mca16022\Documents\GreenDrive\.idea\libraries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a33f23c2-0090-4f3d-b19b-e4461c472289" name="Default" comment="" />
+      <created>1555476086128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555476086128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.049099836" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32569557" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="10" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3237519" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tripdetails.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customlayout2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/pendingAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_driverslist.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ride.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ridedest.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/frontscreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/welcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DriveORRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1997">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2646">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/trippublish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5689">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridedest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ActiveAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2507">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/AactiveList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2884">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drive.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="242" column="43" selection-start-line="242" selection-start-column="43" selection-end-line="242" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_personalinfo.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="5372">
+          <caret line="316" column="32" selection-start-line="316" selection-start-column="32" selection-end-line="316" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/personalinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="223" column="26" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_confirmdriver.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_confirmrider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ridepublish.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trippublish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activecustomlayout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pendingrequest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_driverdetaiils.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customlayout3.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/DisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/carlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmrider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/PendingRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3221">
+          <caret line="231" column="9" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/addstop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/confirmdriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverslist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/tripdetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="192" column="54" selection-start-line="192" selection-start-column="54" selection-end-line="192" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/safety.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/Ride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/triphistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/ridepublish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="349" column="49" selection-start-line="349" selection-start-column="49" selection-end-line="349" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/activerequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/driverdetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="290" column="46" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techtopus/greendrive/TrackerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
